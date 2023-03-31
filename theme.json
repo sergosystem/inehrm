@@ -1,0 +1,179 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/theme.json",
+    "version": 2,
+    "settings": {
+        "appearanceTools": true,
+        "color": {
+            "defaultPalette": false,
+            "palette": [
+                {"slug": "u-white", "color": "rgb(255 255 255)", "name": "Inehrm Blanco"},
+                { "slug": "u-gray-100", "color": "rgb(243 244 246)", "name": "Inehrm Gris 100" },
+                { "slug": "u-gray-200", "color": "rgb(229 231 235)", "name": "Inehrm Gris 200" },
+                { "slug": "u-gray-300", "color": "rgb(209 213 219)", "name": "Inehrm Gris 300" },
+                { "slug": "u-gray-400", "color": "rgb(156 163 175)", "name": "Inehrm Gris 400" },
+                { "slug": "u-gray-500", "color": "rgb(107 114 128)", "name": "Inehrm Gris 500" },
+                { "slug": "u-gray-600", "color": "rgb(75 85 99)", "name": "Inehrm Gris 600" },
+                { "slug": "u-gray-700", "color": "rgb(55 65 81)", "name": "Inehrm Gris 700" },
+                { "slug": "u-gray-800", "color": "rgb(31 41 55)", "name": "Inehrm Gris 800" },
+                { "slug": "u-gray-900", "color": "rgb(17 24 39)", "name": "Inehrm Gris 900" },
+                { "slug": "u-black", "color": "rgb(0 0 0)", "name": "Inehrm Negro" },
+                { "slug": "u-primary", "color": "rgb(52 211 153)", "name": "Udemy Primary" },
+                { "slug": "u-brown-7420C", "color": "rgb(159 34 65)", "name": "Inehrm Guinda 7420C" },
+                { "slug": "u-brown-7421C", "color": "rgb(105 28 50)", "name": "Inehrm Guinda 7421C" },
+                { "slug": "u-green-626C", "color": "rgb(35 91 78)", "name": "Inehrm Verde 626C" },
+                { "slug": "u-warning", "color": "rgb(16 49 43)", "name": "Inehrm Verde 627C" },
+                { "slug": "u-gold-468C", "color": "rgb(221 201 163)", "name": "Inehrm Dorado 468C" },
+                { "slug": "u-gold-465C", "color": "rgb(188 149 92)", "name": "Inehrm Dorado 465C"}            
+            ],
+            "background": true,
+            "text": true,
+            "link": true,
+            "custom": true,
+            "duotone": [
+                {"slug": "u-pink-sunset", "colors": ["#11245e", "#dc4379"], "name": "Inehrm Pink SunSet"}
+            ],
+            "defaultGradients": false,
+            "gradients": [
+                {
+                    "slug": "u-summer-dog",
+                    "name": "Inehrm Summer Dog",
+                    "gradient": "linear-gradient(#a8ff78, #78ffd6)"
+                }
+            ]
+        },
+        "blocks": {
+            "core/site-title": {
+                "color": {
+                    "defaultPalette": true,
+                    "palette": [
+                        {"slug": "u-brown-7420C", "color": "#9f2241", "name": "Inehrm Guinda 7420C"}
+                    ],
+                    "link": true,
+                    "custom": false,
+                    "gradients": [],
+                    "customGradient": false
+                },
+                "typography": {
+                    "fontFamilies": [
+                        {
+                            "fontFamily": "Pacifico, sans-serif",
+                            "slug": "u-pacifico",
+                            "name": "Inehrm Pacifico"
+                        }
+                    ]
+                }
+            },
+            "core/cover": { 
+                "color": {
+                    "duotone": [],
+                    "customDuotone": false
+                }
+            },
+            "core/preformatted": {
+                "typography": {
+                    "fontSizes": [],
+                    "customFontSize": false
+                }
+            }
+        },
+        "border": {
+            "color": true,
+            "radius": true,
+            "style": true,
+            "width": true
+        },
+        "typography": {
+            "fontFamilies": [
+                { 
+                    "fontFamily": "Ribik, sans-serif",
+                    "slug": "u-rubik",
+                    "name": "Inehrm Rubik"
+                }
+            ],
+            "fontSizes": [
+                { "slug": "small", "size": "0.75rem", "name": "Pequeño" },
+                { "slug": "medium", "size": "1.25rem", "name": "Mediano" },
+                { "slug": "large", "size": "2.25rem", "name": "Grande" },
+                { "slug": "x-large", "size": "3rem", "name": "Extra Grande" },
+                { "slug": "gigantic", "size": "3.75rem", "name": "Gigantic" }      
+            ],
+            "lineHeight": true,
+            "dropCap": true, 
+            "fontWeight": true,
+            "fontStyle": true,
+            "textTransform": true,
+            "letterSpacing": true,
+            "textDecoration": true
+        },
+        "layout": {
+            "contentSize": "800px",
+            "wideSize": "1100px"
+        },
+        "spacing": {
+            "margin": true,
+            "padding": true,
+            "units": [
+                "px", "em", "rem", "vh", "vw", "%"
+            ],
+            "blockGap": true
+        }
+    },
+    "styles": {
+        "color": {
+            "text": "var(--wp--preset--color--u-gray-700)",
+            "background": "var(--wp--preset--color--u-white)"
+        },
+        "elements": {
+            "link": {
+                "color": {
+                    "text": "var(-wp--preset--color--u-primary)"
+                }
+            }
+        },
+        "blocks": {
+            "core/button": {
+                "color": {
+                    "gradient": "var(--wp--preset--gradient--u-summer-dog)"
+                }
+            },
+            "core/pullquote": {
+                "border": {
+                    "width": "2px",
+                    "radius": "10px",
+                    "style": "solid",
+                    "color": "var(--wp--preset--color--u-primary)"
+                }
+            },
+            "core/site-title": {
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--u-pacifico)"
+                }
+            }
+        },
+        "typography": {
+            "fontFamily": "var(--wp--preset--font-family--u-rubik)",
+            "fontSize": "16px",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+            "lineHeight": "inherit",
+            "textDecoration": "none",
+            "textTransform": "none"
+        },
+        "spacing": {
+            "margin": {
+                "top": "0px",
+                "bottom": "0px",
+                "left": "0px",
+                "right": "0px"
+            },
+            "padding": {
+                "top": "0px",
+                "bottom": "0px",
+                "left": "0px",
+                "right": "0px"
+            },
+            "blockGap": "3rem"
+        }
+    }
+
+} 
